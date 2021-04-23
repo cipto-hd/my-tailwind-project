@@ -1,6 +1,6 @@
 import React from "react";
-import DestinationCard from "../../tailwindcss-from-zero-to-production/08-optimizing-for-production/src/components/DestinationCard";
-import popularDestinations from "../../tailwindcss-from-zero-to-production/08-optimizing-for-production/src/data/popularDestinations";
+import DestinationCard from "./components/DestinationCard";
+import popularDestinations from "./data/popularDestinations";
 
 function App() {
   return (
