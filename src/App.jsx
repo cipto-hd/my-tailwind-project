@@ -8,16 +8,16 @@ function App() {
       <div className="bg-gray-100 flex">
         <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
           <div className="xl:max-w-lg xl:ml-auto">
-            <img className="h-10" src="/img/logo.svg" alt="workcation" />
+            <img className="h-10" src="/img/logo-brand.svg" alt="workcation" />
             <img
-              className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+              className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center lg:hidden"
               src="/img/beach-work.jpg"
               alt="woman workcationing on the beach"
             />
-            <h1 className="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+            <h1 className="mt-6 text-2xl font-headline font-bold text-gray-900 tracking-tight leading-tight sm:mt-8 sm:text-3xl xl:text-4xl">
               You can work from anywhere.
-              <br className="hidden lg:inline" />
-              <span className="text-indigo-500">Take advantage of it.</span>
+              <br />
+              <span className="text-brand"> Take advantage of it.</span>
             </h1>
             <p className="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
               Workcation helps you find work-friendly rentals in beautiful
